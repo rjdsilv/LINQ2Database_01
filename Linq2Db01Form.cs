@@ -53,7 +53,7 @@ namespace LINQ2Database_01
 
                         cnn.Open();
                         cmd.ExecuteNonQuery();
-                        MessageBox.Show("Record successfully added!", "Success", MessageBoxButtons.OK, MessageBoxIcon.In);
+                        MessageBox.Show("Record successfully added!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
             }
