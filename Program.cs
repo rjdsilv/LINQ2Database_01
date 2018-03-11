@@ -16,7 +16,7 @@ namespace LINQ2Database_01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Linq2Db01Form());
         }
     }
 }
